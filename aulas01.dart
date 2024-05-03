@@ -22,4 +22,22 @@ void main() {
   } else {
     print("É menor de idade");
   }
+
+  String msg = idade >= 18 ? "Maior de idade" : "Menor de idade";
+  print(msg);
+
+  int i = 1;
+  while (1 <= 100) {
+    print(1);
+    i++;
+  }
+
+  for (int i = 1; i <= 5; i++) {
+    print(i);
+  }
+
+  List<String> frutas = ['maça', 'banana', 'laranja', 'uva'];
+  for (String fruta in frutas) {
+    print(fruta);
+  }
 }
